@@ -1,4 +1,4 @@
-# terroir
+# Terroir
 An opinionated extension of Bedrock.
 
 ## Requirements
@@ -16,7 +16,7 @@ $ composer require codilechasseur/terroir
 
 ## License
 
-Plugin Meta is provided under the [MIT License](LICENSE.md).
+Terroir is provided under the [MIT License](LICENSE.md).
 
 ## TODO
 
