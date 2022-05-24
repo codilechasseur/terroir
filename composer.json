@@ -1,0 +1,56 @@
+{
+  "name": "codilechasseur/terroir",
+  "type": "wordpress-muplugin",
+  "license": "MIT",
+  "description": "An opinionated extension of Bedrock.",
+  "homepage": "https://github.com/codilechasseur/terroir",
+  "authors": [
+    {
+      "name": "Codi Lechasseur",
+      "email": "codilechasseur@gmail.com",
+      "homepage": "https://github.com/codilechasseur"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "bedrock",
+    "composer"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "composer/installers": "^2.1",
+    "roots/soil": "^4.0",
+    "wpackagist-plugin/duplicate-post": "^4.4",
+    "wpackagist-plugin/enable-media-replace": "^3.6",
+    "wpackagist-plugin/intuitive-custom-post-order": "^3.1",
+    "log1x/modern-acf-options": "^1.0",
+    "log1x/modern-login": "^1.0",
+    "log1x/navi": "^2.0",
+    "wpackagist-plugin/safe-svg": "^2.0",
+    "wpackagist-plugin/simple-history": "^2.38",
+    "wpackagist-plugin/two-factor": "^0.7",
+    "wpackagist-plugin/user-switching": "^1.5"
+  },
+  "require-dev": {
+    "wpackagist-plugin/post-type-switcher": "^3.2",
+    "wpackagits-plugin/query-monitor": "^3.9",
+    "wpackagist-plugin/wp-crontrol": "^1.12"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
